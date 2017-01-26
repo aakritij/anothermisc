@@ -1,11 +1,12 @@
 package com.pratice.aakriti.misc;
 
-import java.util.ArrayList; 
+import java.util.ArrayList;
+import java.util.List; 
 
 public class Fibonacci { 
 
-	private ArrayList<Integer> generateFibonacci (int n){ 
-		ArrayList<Integer> fib=new ArrayList<Integer>(); 
+	private List<Integer> generateFibonacci (int n){ 
+		List<Integer> fib=new ArrayList<Integer>(); 
 		fib.add(0); 	
 		fib.add(1); 
 	for(int i=2;i<n;i++){
